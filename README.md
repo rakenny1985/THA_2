@@ -1,4 +1,11 @@
 # THA_2
+## Project Name: USAID Disbursement Research
+### Project Summary
+### Previous Work on the Project
+### Funding Information
+### Primary Contact Information
+### Additional Collaboration on Project
+### Data and Supporting Information
 * **Source #1**: USAID Foreign Aid Explorer; Country Summary; xlsx - [FAE: Data](https://explorer.usaid.gov/data.html)
 		
     * What is it?: A table of all the US donations and obligations of foreign aid by year and by country. It is in both current USD and constant USD. 
@@ -7,7 +14,7 @@
 		
     * Manipulation in Excel: To ensure the data was properly identifiable,  I added a column for ‘unique_id’ which is an excel concatenation of the country name+year. The original data included replications of each disbursement or obligation made (ie. from USAID or DoD) but did not include unique $ amounts (just the total for the year). As such I deleted all of the replications. I checked 3 random samples of country by year back to the USAID dashboard [FAE: Dashboard](https://explorer.usaid.gov/aid-dashboard.html) to ensure the totals were correct. No additional excel changes were made. An original has also been saved in my project folder. 
 	
-   * **Source #2**: DePaul University Quantitive Reasoning Center; Excel Files; _Presidents.xls_ - [QRC Home Page](http://qrc.depaul.edu)
+* **Source #2**: DePaul University Quantitive Reasoning Center; Excel Files; _Presidents.xls_ - [QRC Home Page](http://qrc.depaul.edu)
 		
     * What is it?: A table of all US Presidents by term length and inauguration date; includes college, age upon taking office, occupation, political party and various election results
 		
@@ -15,8 +22,7 @@
 		
     * The attributes are: [‘President’, ‘Year’, ‘Age at inauguration’, ‘Political Party’, ’Occupation’, ‘College’] and are all self-explanatory. 
 	
-  
-  * **Source #3:** Center for Systemic Peace: [Mission](https://www.systemicpeace.org/mission.html); INSCR Data; Polity IV Annual Time-Series, 1800-2017; Excel Series
+ * **Source #3:** Center for Systemic Peace: [Mission](https://www.systemicpeace.org/mission.html); INSCR Data; Polity IV Annual Time-Series, 1800-2017; Excel Series
 		
     * What is it?: Per their website: “*Polity IV Project, Political Regime Characteristics and Transitions, 1800-2017,* annual, cross-national, time-series and polity-case formats coding democratic and autocratic “patterns of authority” and regime changes in all independent countries with total population greater than 500,000 in 2017 “
 	
@@ -24,6 +30,7 @@
 		
     * The attributes are: [‘unique_id’, ‘cyear’, ‘ccode’, ‘scode’, ‘country’, ‘year’, ‘flag’, ’fragment’, ‘democ’, ‘autoc’, ‘polity’, ‘polity2’, ‘durable’, ‘xrreg’, ‘xrcomp’, ‘xropen’, ‘xconst’, ‘parreg’, ‘parcomp’, ‘exrec’, ‘exconst’, ’polcomp’, ‘prior’, ‘emonth’, ‘eday’, ‘eyear’, ‘eprec’, ‘interim’,  ‘bmonth’, ‘bday’, ‘byear’, ‘bprec’, ‘post’, ‘change’, ‘d4’, ‘sf’, ’regtrans’]. The users manual with variable definitions can be found here: http://www.systemicpeace.org/inscr/p4manualv2017.pdf. 
 		
-    * Many of the attributes contain subjective calculations and weighting (which is reasonable given the nature of the characteristics they are trying to conceptualize such as ‘democracy’) so I will need to put a bit of time in to understanding the major components and assumptions made. However for this exercise I wanted to use this data to give an idea on the level of institutionalized democracy (‘democ’) and institutionalized autocracy (‘autoc’) 
-	
-  * Next Steps: I’d like to merge data on GDP; GDP/capita; Conflict; Natural and Humanitarian disaster status for each country by year. Also possibly merge data on their international institution alliances. 
+    * Many of the attributes contain subjective calculations and weighting (which is reasonable given the nature of the characteristics they are trying to conceptualize such as ‘democracy’) so I will need to put a bit of time in to understanding the major components and assumptions made. However for this exercise I wanted to use this data to give an idea on the level of institutionalized democracy (‘democ’) and institutionalized autocracy (‘autoc’)
+### Organization and Naming Conventions Used for the Data
+### Next Steps	
+  * I’d like to merge data on GDP; GDP/capita; Conflict; Natural and Humanitarian disaster status for each country by year. Also possibly merge data on their international institution alliances. 
