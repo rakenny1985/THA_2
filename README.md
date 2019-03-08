@@ -1,7 +1,11 @@
 # THA_2
 ## Project Name: USAID Disbursement Research
 ### Project Summary
-* This is a research project for a Data Management class at the LBJ School of Public Policy in Austin. While currently in progress, it the goal is to merge open source data into an analyzable dataframe to answer the question: How does USAID decide which countries get the most foreign aid? 
+* This is a research project for a Data Management class at the LBJ School of Public Policy in Austin. While currently in progress, there are two goals:
+	* To merge open source data into an analyzable dataframe to answer the question: How does USAID decide which countries get the most foreign aid? 
+	* To ensure the entire research process is planned, monitored and evaluated by the data management toolkit provided in PA 397C as to produce a replicable research article. 
+* Information Sources: Credible open source data from international institutions, academia, countries, or other reputible sources
+* Software: Python 3.0, Gephi, Excel
 ### Previous Work on the Project
 * No direct work prior to this project. 
 ### Funding Information
