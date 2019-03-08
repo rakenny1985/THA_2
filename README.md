@@ -1,10 +1,15 @@
 # THA_2
 ## Project Name: USAID Disbursement Research
 ### Project Summary
+* This is a research project for a Data Management class at the LBJ School of Public Policy in Austin. While currently in progress, it the goal is to merge open source data into an analyzable dataframe to answer the question: How does USAID decide which countries get the most foreign aid? 
 ### Previous Work on the Project
+* No direct work prior to this project. 
 ### Funding Information
+* The absurd amount of student loan debt that is funding my master's degree $$$ :). 
 ### Primary Contact Information
+* I'm not sure I want to put anything here. To be discussed. 
 ### Additional Collaboration on Project
+* No direct collaboration. A professor from the LBJ School is providing mentorship. 
 ### Data and Supporting Information
 * **Source #1**: USAID Foreign Aid Explorer; Country Summary; xlsx - [FAE: Data](https://explorer.usaid.gov/data.html)
 		
