@@ -38,6 +38,12 @@
     * Many of the attributes contain subjective calculations and weighting (which is reasonable given the nature of the characteristics they are trying to conceptualize such as ‘democracy’) so I will need to put a bit of time in to understanding the major components and assumptions made. However for this exercise I wanted to use this data to give an idea on the level of institutionalized democracy (‘democ’) and institutionalized autocracy (‘autoc’)
 ### Organization and Naming Conventions Used for the Data
 * Organization: All files (including PDFs, .xls, .xlsx, word) used in support of Python analysis will be kept in this repository in their original form (post user modifications noted above). Primary Python coding and analysis will be performed in [Google Colaboratory](https://colab.research.google.com/) for ease of edit and transfers to this repository. Primary Python coding file is the only .ipynb file-type. 
-* 
+* Naming Conventions: Naming conventions for files is in process. 
 ### Next Steps	
-  * I’d like to merge data on GDP; GDP/capita; Conflict; Natural and Humanitarian disaster status for each country by year. Also possibly merge data on their international institution alliances. 
+  * I’d like to merge additional country data on: 
+  	* GDP; GDP/capita 
+	* Conflict 
+	* Natural and Humanitarian disaster status  
+	* International institution alliances - political
+	* International institution alliances - economic
+	* Foreign lobbying dollars in the US by country
